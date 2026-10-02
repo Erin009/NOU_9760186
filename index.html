@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>蔡芸涵的個人介紹</title>
+    <!-- 引入外部 CSS 樣式表 -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header><h1>蔡芸涵的個人介紹(更新)</h1></header>
@@ -19,5 +21,87 @@
     <p>我的學習目標是熟悉HTML網頁製作</p>
     <h2>我喜歡的網站</h2>
     <p><a href="http://WWW.GOOGLE.COM">GOOGLE</a></p>
+    <p>這是第一段的內容。</p>
+    <!-- 三個不同的段落，都使用名為 "highlight" 的 class -->
+    <p class="highlight">這是第一段重要文字。</p>
+    <p class="highlight">這是第二段重要文字。</p>
+    <div class="highlight">這是一個重要區塊。</div>
+
+    <!-- 畫出一條分隔線 -->
+    <hr />
+
+    <p>這是第二段的內容，下面我有一段保留空格的程式碼：</p>
+
+    <!-- 保留所有空格與換行的標籤 -->
+    <pre>
+  function sayHello() {
+      console.log("Hello World!");
+  }
+</pre
+    >
+    <p>愛因斯坦曾經說過一段非常有名的話：</p>
+
+    <!-- cite 屬性可以寫上來源網址 -->
+    <blockquote cite=" https://bookzone.cwgv.com.tw/article/19595 ">
+      一個從未犯錯的人，是因為他從未嘗試過任何新事物。
+      這句話提醒我們，不要害怕失敗，因為失敗是學習的一部分。
+    </blockquote>
+
+    <p>這句話激勵了無數正在面對挑戰的人。</p>
+    <h3>買菜清單（順序沒關係，用 ul）</h3>
+    <ul>
+      <li>蘋果</li>
+      <li>香蕉</li>
+      <li>牛奶</li>
+    </ul>
+
+    <hr />
+
+    <h3>泡麵三步驟（順序很重要，用 ol）</h3>
+    <ol>
+      <li>把撕開的調味包倒進碗裡。</li>
+      <li>加入熱水並蓋上蓋子。</li>
+      <li>耐心等待三分鐘後即可享用。</li>
+    </ol>
+    <h3>大寫羅馬數字清單</h3>
+    <ol type="I">
+      <li>網頁基本骨架</li>
+      <li>文字與標題</li>
+      <li>多媒體標籤</li>
+    </ol>
+
+    <h3>大寫英文字母清單</h3>
+    <ol type="A">
+      <li>打開瀏覽器</li>
+      <li>輸入網址</li>
+      <li>按下 Enter 鍵</li>
+    </ol>
+    <!-- 從 C 開始編號 (第三個字母) -->
+    <ol type="A" start="3">
+      <li>這是項目 C</li>
+      <li>這是項目 D</li>
+    </ol>
+  </body>
+</html>
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我的第一個漂亮網頁</title>
+
+    <!-- 1. 裝上瀏覽器分頁的小圖示 (Favicon) -->
+    <!-- type 屬性會根據你的圖片格式改變，例如 image/x-icon 或 image/png -->
+    <link rel="icon" href="favicon.ico" type="image/png " />
+
+    <!-- 2. 匯入外部的 style.css 衣服檔案 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>歡迎來到我的網頁！</h1>
+      <p>這是一個經過 <span>精心設計</span> 的段落文字。</p>
+      <button>點擊我有驚喜</button>
+    </main>
   </body>
 </html>
